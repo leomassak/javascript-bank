@@ -1,0 +1,229 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(background-login.jpg);
+}
+
+i {
+  margin-right: 5px;
+  color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: rgba(13, 29, 53, 0.9);
+  color: white;
+  min-height: 8vh;
+}
+
+/*--------------------------------- style Login -------------------------------*/
+form.form-login{
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(13, 29, 53, 0.9);
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+}
+
+#foto-user {
+  position: absolute;
+  top: 40px;
+  left: 700px;
+  border-radius: 5px;
+}
+
+.caixa-texto {
+  height: 30px;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding-left: 5px;
+}
+
+button#login-button {
+  margin-top: 20px;
+  height: 50px;
+  width: 280px;
+  border: 4px solid rgb(15, 206, 142);
+  border-radius: 5px;
+  background-color: rgb(15, 206, 142);
+  color: white;
+  font-size: 15pt;
+  box-shadow: 2px 2px 2px rgb(14, 153, 95);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+button#login-button:hover {
+  background-color: rgb(15, 172, 119);
+}
+
+#forgot {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  top: 430px;
+}
+
+
+#forgot:hover {
+  text-decoration: underline;
+}
+
+/*--------------------------------------------------- style Admin/Cliente -------------------------------------*/
+
+#area-admin{
+  display: none;
+}
+
+#area-cliente{
+  display: none;
+}
+
+.nav-itens{
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.center{
+  text-align: center;
+  margin-top: 20px;
+}
+
+form.form-layout{
+  display: none;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+  margin: 0px auto;
+  background-color: rgba(169, 169, 169, 0.199);
+}
+
+.center-form{
+  margin:10px auto;
+}
+
+.button-form{
+  height: 100px;
+  width: 105px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.botao-cor1{
+  background-color: #4b4b4b;
+}
+
+.botao-cor2{
+  background-color: #596275;
+}
+
+.logout-button{
+  cursor: pointer;
+  background-color: rgba(13, 29, 53, 0.0);
+  border: 1px solid rgba(13, 29, 53, 0.5);
+  color: white;
+  width: 100px;
+  height: 8vh;
+}
+
+.button-icon{
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  margin: 10px auto;
+}
+
+textarea{
+  padding-left: 5px;
+}
+
+#cadastro-icon{
+  color: #4b4b4b; 
+}
+
+#list-icon{
+  color: #596275;
+}
+
+.icon-container{
+  background-color: white; 
+  height: 50px;
+  width: 50px;
+  margin: 0px auto;
+  border-radius: 50px;
+}
+
+.caixa{
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding-left: 5px; 
+}
+
+#nome-display{
+  /*text-align: center;*/
+  margin-left: 20px;
+}
+
+#saque-icon{
+  color: #4b4b4b; 
+}
+
+#deposito-icon{
+  color: #596275;
+}
+
+#transfere-icon{
+  color: #4b4b4b; 
+}
+
+#reset-icon{
+  color: #596275;
+}
+
+#extrato-icon{
+  color: #4b4b4b; 
+}
+
+.textarea-layout{
+  background-color: rgba(0,0,0,0);
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-left: 0px solid rgba(0,0,0,0);
+  border-right: 0px solid rgba(0,0,0,0);
+}
+
+.submit-button{
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(13, 29, 53, 0.9);
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.submit-button:hover{
+  background-color: #4b4b4b; 
+}
+
